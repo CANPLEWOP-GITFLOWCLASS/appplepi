@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    margin: 0 30px
+}
+
+.col {
+    margin: 30px;
+}
+
+.item {
+    margin: 15px;
+}
