@@ -11,6 +11,12 @@ header .logo {
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main>* {
+    margin: 30px;
 }
 
 .row {
@@ -22,15 +28,7 @@ main {
     margin: 30px;
 }
 
-.item {
-    margin: 15px;
-    padding: 25px;
-    border-radius: 15px;
-    background-color: #ff5252;
-}
+.col ul li {
 
-.item a {
-    color: white;
-    text-decoration: none;
-    font-size: large;
+    margin: 20px;
 }
